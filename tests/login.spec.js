@@ -23,7 +23,7 @@ test('validlogin @regression',async({page})=>
     await page.locator("#username").fill("rahulshettyacademy");
     await page.locator("[name='password']").fill("Learning@830$3mK2");
     await page.locator("input#signInBtn").click();
-    await expect(page).toHaveUrl("https://rahulshettyacademy.com/angularpractice/shop");
+    await expect(page).toHaveURL("https://rahulshettyacademy.com/angularpractice/shop");
    
 
 
