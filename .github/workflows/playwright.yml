@@ -41,6 +41,10 @@ jobs:
         echo "Running tests with tag: $TAG"
         npx playwright test --grep "$TAG"
 
+    - name: Install Allure CLI and Playwright Allure Reporter
+      run: |
+        npm install -D allure-commandline allure-playwright
+
     - name: Generate Allure Report
       if: always()
       run: |
