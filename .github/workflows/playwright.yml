@@ -36,8 +36,10 @@ jobs:
     - name: Run Playwright tests with tag
       run: |
         TAG="${{ github.event.inputs.tag }}"
-        echo "Running tests with tag: "@smoke"
-        npx playwright test --grep "@smoke"
+        TAG=${TAG:-"@smoke"}
+
+        echo "Running tests with tag: $TAG"
+        npx playwright test --grep "$TAG"
 
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
