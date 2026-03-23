@@ -51,6 +51,14 @@ jobs:
           echo "No allure-results found or folder is empty, skipping report generation"
         fi
 
+    - name: List allure-results contents
+      run: |
+        if [ -d "allure-results" ]; then
+         ls -lR allure-results
+        else
+         echo "No allure-results folder found"
+        fi
+
     - name: Upload Allure Report
       if: always()
       uses: actions/upload-artifact@v4
