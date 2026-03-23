@@ -1,14 +1,31 @@
-import{test}from '@playwright/test';
+import{test,expect}from '@playwright/test';
 
 
 
-test('login',async({page})=>
+test('invalidlogin @smoke',async({page})=>
 {
 
-    await page.goto("https://testautomationpractice.blogspot.com/");
-    await page.locator("#name").fill("gambo");
-    await page.locator("#email").fill("gambo@123");
-    
+    await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
+    await page.locator("#username").fill("rahulshettyacademy");
+    await page.locator("[name='password']").fill("Learning@");
+    await page.locator("input#signInBtn").click();
+   console.log(await page.locator("[style*='block']").textContent());
+   await expect(page.locator("[style*='block']")).toContainText("Incorrect username/password.");
+
+
+}
+)
+
+test('validlogin @regression',async({page})=>
+{
+
+    await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
+    await page.locator("#username").fill("rahulshettyacademy");
+    await page.locator("[name='password']").fill("Learning@830$3mK2");
+    await page.locator("input#signInBtn").click();
+    await expect(page).toHaveUrl("https://rahulshettyacademy.com/angularpractice/shop");
+   
+
 
 }
 )
