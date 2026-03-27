@@ -1,0 +1,29 @@
+
+    
+    
+	    
+	        iphone X
+	    
+	    $24.99
+	    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.
+    
+    
+    	Add 
+      	★ ★ ★ ★ ☆
+    
+  
+
+    
+    
+	    
+	        Nokia Edge
+	    
+	    $24.99
+	    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.
+    
+    
+    	Add 
+      	★ ★ ★ ★ ☆
+    
+  
+[ 'iphone X', 'Samsung Note 8', 'Nokia Edge', 'Blackberry' ]
