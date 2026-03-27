@@ -12,7 +12,7 @@ test('testing',async({page})=>
    await drop.selectOption("teach");
    await page.check("#terms");
    await page.click("#signInBtn");
-   
+
 
 
 
