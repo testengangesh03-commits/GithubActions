@@ -4,7 +4,7 @@ test('testing',async({page})=>
 {
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
     await page.locator("#username").fill("Gambo");
-    // await page.locator("[type='password']").fill("Gambo@123");
+    await page.locator("[type='password']").fill("Gambo@123");
     await page.fill("[type='password']","Gambo@123")
     await page.click("//span[text()=' User']");
     await page.click("#okayBtn");
