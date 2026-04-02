@@ -91,7 +91,7 @@ jobs:
   deploy:
     needs: test
     runs-on: ubuntu-latest
-    if: always()
+    if: success()
 
     steps:
     - name: Download Allure Report Artifact
@@ -100,8 +100,19 @@ jobs:
         name: allure-report
         path: allure-report
 
+    - name: Validate downloaded Allure report
+      run: |
+        if [ -f "allure-report/index.html" ]; then
+          echo "Allure report exists"
+          ls -l allure-report
+        else
+          echo "No Allure report found in allure-report/"
+          exit 1
+        fi
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
         publish_dir: allure-report
