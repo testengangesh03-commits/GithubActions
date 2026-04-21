@@ -1,0 +1,86 @@
+
+    
+    
+	    
+	        iphone X
+	    
+	    $24.99
+	    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.
+    
+    
+    	Add 
+      	★ ★ ★ ★ ☆
+    
+  
+
+    
+    
+	    
+	        Nokia Edge
+	    
+	    $24.99
+	    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.
+    
+    
+    	Add 
+      	★ ★ ★ ★ ☆
+    
+  
+[
+  '\n' +
+    '    \n' +
+    '    \n' +
+    '\t    \n' +
+    '\t        iphone X\n' +
+    '\t    \n' +
+    '\t    $24.99\n' +
+    '\t    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.\n' +
+    '    \n' +
+    '    \n' +
+    '    \tAdd \n' +
+    '      \t★ ★ ★ ★ ☆\n' +
+    '    \n' +
+    '  ',
+  '\n' +
+    '    \n' +
+    '    \n' +
+    '\t    \n' +
+    '\t        Samsung Note 8\n' +
+    '\t    \n' +
+    '\t    $24.99\n' +
+    '\t    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.\n' +
+    '    \n' +
+    '    \n' +
+    '    \tAdd \n' +
+    '      \t★ ★ ★ ★ ☆\n' +
+    '    \n' +
+    '  ',
+  '\n' +
+    '    \n' +
+    '    \n' +
+    '\t    \n' +
+    '\t        Nokia Edge\n' +
+    '\t    \n' +
+    '\t    $24.99\n' +
+    '\t    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.\n' +
+    '    \n' +
+    '    \n' +
+    '    \tAdd \n' +
+    '      \t★ ★ ★ ★ ☆\n' +
+    '    \n' +
+    '  ',
+  '\n' +
+    '    \n' +
+    '    \n' +
+    '\t    \n' +
+    '\t        Blackberry\n' +
+    '\t    \n' +
+    '\t    $24.99\n' +
+    '\t    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.\n' +
+    '    \n' +
+    '    \n' +
+    '    \tAdd \n' +
+    '      \t★ ★ ★ ★ ☆\n' +
+    '    \n' +
+    '  '
+]
